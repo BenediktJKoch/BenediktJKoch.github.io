@@ -3,7 +3,7 @@ layout: page
 permalink: /podcasts/
 title: podcasts
 description: 
-years: [History, Finance]
+years: [History, Finance, News]
 nav: false
 heading: podcasts
 ---
