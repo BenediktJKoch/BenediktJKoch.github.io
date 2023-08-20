@@ -11,18 +11,21 @@ layout: default
   </header> -->
 
   <header class="post-header">
-    <h1 class="post-title" style="display: flex; justify-content: center; align-items: center;">
+    <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
-            <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer" style="margin-left: 10px;">
-                <i class="fas fa-file-pdf"></i>
-            </a>
-        {% endif %}
     </h1>
     {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+        <p class="post-description">
+            {{ page.description }}
+            {% if page.cv_pdf %}
+                <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer" style="margin-left: 10px;">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            {% endif %}
+        </p>
     {% endif %}
-</header>
+  </header>
+
 
 
   <!-- <h4>Table of contents</h4>
