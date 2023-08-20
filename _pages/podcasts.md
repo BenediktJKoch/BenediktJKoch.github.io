@@ -8,7 +8,6 @@ heading: podcasts
 ---
 <div class="publications">
 
-{% bibmisc -f podcasts %}
 
 </div>
 
