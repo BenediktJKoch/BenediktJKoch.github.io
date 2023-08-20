@@ -8,7 +8,7 @@ heading: podcasts
 ---
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bib_podcasts }} %}
+{% bibmisc -f podcasts %}
 
 </div>
 
