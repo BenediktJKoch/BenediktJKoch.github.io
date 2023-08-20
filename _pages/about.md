@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Statistics PhD</b> student at Harvard University 
+subtitle: <b>Statistics PhD student at Harvard University</b>
 
 profile:
   align: right
