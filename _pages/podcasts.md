@@ -16,7 +16,7 @@ heading: podcasts
   <!-- You can display other details of the entry here if needed, like the abbreviation or color -->
   <!-- <span class="badge badge-{{ podcast.color }}">{{ podcast.abbr }}</span>
 {% endfor %} -->
-{% bibliography -f podcasts %}
+<!-- {% bibliography -f podcasts --sort title %} -->
 
 </div>
 
