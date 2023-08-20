@@ -8,7 +8,15 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
-
-{% bibliography -f {{ site.scholar.bibliography }} %}
-
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+        {% for publication in site.bibliography %}
+            <p>
+                {% if publication.url %}
+                    <a href="{{ publication.url }}" target="_blank">{{ publication.title }}</a>
+                {% else %}
+                    {{ publication.title }}
+                {% endif %}
+                - {{ publication.author }}, {{ publication.year }}
+            </p>
+        {% endfor %}
 </div>
