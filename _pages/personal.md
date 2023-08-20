@@ -7,7 +7,7 @@ dropdown: true
 children: 
     - title: podcasts
       permalink: /podcasts/
-    - title: divider
+    # - title: divider
     # - title: projects
     #   permalink: /projects/
 ---
