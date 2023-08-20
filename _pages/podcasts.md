@@ -11,7 +11,7 @@ heading: podcasts
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f talks -q @*[year={{y}}]* %}
+  {% bibliography -f podcasts -q @*[year={{y}}]* %}
 {% endfor %}
 
 
