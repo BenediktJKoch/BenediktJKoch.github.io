@@ -7,13 +7,13 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
-<!-- <div class="publications">
+<div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
-</div> -->
+</div>
 
-<div class="publications">
+<!-- <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} %}
         {% for publication in site.bibliography %}
             <p>
@@ -25,7 +25,7 @@ nav_order: 1
                 - {{ publication.author }}, {{ publication.year }}
             </p>
         {% endfor %}
-</div>
+</div> -->
 
 
 <!-- <div class="publications">
