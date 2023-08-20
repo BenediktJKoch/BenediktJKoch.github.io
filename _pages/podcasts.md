@@ -3,15 +3,15 @@ layout: page
 permalink: /podcasts/
 title: podcasts
 description: 
-years: [2024,2023,2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013]
+topic: [History, News, Finance]
 nav: false
 heading: podcasts
 ---
 <div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f podcasts -q @*[year={{y}}]* %}
+{%- for x in page.topic %}
+  <h2 class="topic">{{x}}</h2>
+  {% bibliography -f podcasts -q @*[topic={{x}}]* %}
 {% endfor %}
 
 
