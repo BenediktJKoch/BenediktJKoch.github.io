@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Statistics PhD student at Harvard University</b>
+subtitle: <b>Statistics PhD Candidate at Harvard University</b>
 
 profile:
   align: right
@@ -15,4 +15,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Statistics PhD student at Harvard University and  MSc graduate at the University of Oxford and ETH Zurich with specializations in Causal Inference, Statistical Machine Learning, and Probability Theory. Previous Data Science employment at QuantCo (Healthcare) and HSBC (Finance), with a focus on Statistical Modeling. Extensive military background with training in leadership and teamwork.
+Statistics PhD student at Harvard University and  MSc graduate at the University of Oxford and ETH Zurich with specializations in Statistical Machine Learning, Causal Inference, and Probability Theory. Previous Data Science employment at QuantCo (Healthcare) and HSBC (Finance), with a focus on Statistical Modeling. Extensive military background with training in leadership and teamwork.
